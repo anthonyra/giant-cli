@@ -5,7 +5,7 @@
 curl -fsSL https://github.com/anthonyra/giant-cli/releases/latest/download/giant-cli | bash -s -- install
 ```
 
-Make sure to run `sudo usermod -aG docker $USER  && newgrp docker` after the install script or log out of user and back in
+Make sure to run `sudo usermod -aG docker $USER && newgrp docker` after the install script or log out of user and back in
 
 ```bash
 curl -fsSL https://github.com/anthonyra/giant-cli/releases/latest/download/giant-cli | bash -s -- setup
